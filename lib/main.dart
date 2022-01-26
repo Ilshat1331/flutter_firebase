@@ -42,6 +42,9 @@ class MainScreen extends StatelessWidget {
         } else {
           return const SignInScreen(providerConfigs: [
             EmailProviderConfiguration(),
+            GoogleProviderConfiguration(
+                clientId:
+                    '844328558327-v16hfavh972lo6stula6qgijfe8bflg2.apps.googleusercontent.com'),
           ]);
         }
       });
